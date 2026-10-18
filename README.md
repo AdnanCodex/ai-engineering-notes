@@ -1,192 +1,26 @@
-<div align="center">
+# 📚 AI Engineering Notes
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:102a43,100:33adff&height=220&section=header&text=Data%20Science%20Notebooks&fontSize=48&fontColor=ffffff&animation=fadeIn&desc=Python%20%E2%9E%9C%20NumPy%20%E2%9E%9C%20Pandas%20%E2%9E%9C%20Visualization%20%E2%9E%9C%20Cleaning%20%E2%9E%9C%20EDA&descSize=18&descAlignY=68" alt="Data Science Notebooks"/>
+One repository for my complete **AI Engineering learning path** — structured notes, notebooks and datasets, organized section by section in the order I learned them. Each section has its own README with contents and Colab links.
 
-### 🚀 A complete hands-on learning path for Data Science & AI in Python
+![Python](https://img.shields.io/badge/Python-3.x-blue) ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange) ![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange) ![Pandas](https://img.shields.io/badge/Pandas-Data-150458)
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge)
-![Seaborn](https://img.shields.io/badge/Seaborn-4c72b0?style=for-the-badge)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+## 🗺️ Sections
 
-**✨ Created by [Muhammad Adnan](#-author) ✨**
+| # | Section | What's inside | Status |
+|---|---|---|---|
+| 01 | [Python for Data Science](01-python-for-datascience/) | Python, NumPy, Pandas, Data Visualization, Data Cleaning, EDA | ✅ Complete |
+| 02 | [Machine Learning](02-machine-learning/) | Data Preprocessing, Regression, Classification, Ensemble Learning, Unsupervised Learning | ✅ Complete |
+| 03 | [Deep Learning](03-deep-learning/) | ANN, CNN, RNN & Transformers | 🔜 Coming soon |
+| 04 | [Generative AI](04-generative-ai/) | LLMs, RAG, AI Agents | 🔜 Coming soon |
+| 05 | [FastAPI](05-fastapi/) | Building APIs for ML models | 🔜 Coming soon |
+| 06 | [Streamlit](06-streamlit/) | ML web apps & dashboards | 🔜 Coming soon |
 
-`Artificial Intelligence` • `Python` • `Problem Solving`
+## ⚡ How this repo is organized
 
-</div>
-
----
-
-## 📑 Table of Contents
-
-- [🎯 About](#-about)
-- [🗺️ Learning Path](#️-learning-path)
-- [📚 Notebooks](#-notebooks)
-- [🗂️ Repository Structure](#️-repository-structure)
-- [⚡ Quick Start](#-quick-start)
-- [📂 Datasets](#-datasets)
-- [🧰 Tech Stack](#-tech-stack)
-- [👤 Author](#-author)
+- **One repo for all notes** — projects live in their own repositories; this is the learning library.
+- **Numbered sections** follow my learning order, so the repo reads like a complete path from Python basics to Generative AI.
+- Notebooks keep their **saved outputs**, so everything is readable directly on GitHub; Colab badges inside each section README open any notebook in one click.
+- Dataset paths inside notebooks are **repo-relative**, so they run as-is after cloning.
 
 ---
-
-## 🎯 About
-
-This repository is a **step-by-step journey** from the first line of Python to real data analysis. Every notebook is built in the same clean style:
-
-| ✅ Feature | Description |
-|---|---|
-| 🎨 **Banner & Objective** | Each notebook opens with a title banner and an *About / Objective / Topics* card |
-| 🧩 **Clear sections** | Topics are split into easy, colour-marked sections |
-| 💻 **Runnable code** | Short, focused code cells you can run and modify |
-| 📊 **Saved outputs** | Tables and charts are visible directly on GitHub, no need to run anything |
-| 🏋️ **Practice** | Exercises and real-world datasets (Titanic, IPL, IMDB, clinical trials) |
-
----
-
-## 🗺️ Learning Path
-
-```mermaid
-flowchart LR
-    A["🐍 Python"] --> B["🔢 NumPy"]
-    B --> C["🐼 Pandas"]
-    C --> D["📈 Matplotlib"]
-    D --> E["🎨 Seaborn"]
-    E --> F["🧹 Data Cleaning"]
-    F --> G["🔍 EDA"]
-    style A fill:#102a43,color:#fff,stroke:#33adff
-    style B fill:#102a43,color:#fff,stroke:#33adff
-    style C fill:#102a43,color:#fff,stroke:#33adff
-    style D fill:#102a43,color:#fff,stroke:#33adff
-    style E fill:#102a43,color:#fff,stroke:#33adff
-    style F fill:#102a43,color:#fff,stroke:#33adff
-    style G fill:#102a43,color:#fff,stroke:#33adff
-```
-
-> 💡 **Tip:** follow the folder numbers from `01` to `06` for the best learning experience.
-
----
-
-## 📚 Notebooks
-
-### 🐍 01 · Python
-| Notebook | What you will learn |
-|---|---|
-| [Python Programming](01_Python/01_Python_Programming.ipynb) | Syntax, data types, control flow, functions, OOP, file handling: beginner to advanced |
-
-### 🔢 02 · NumPy
-| Notebook | What you will learn |
-|---|---|
-| [NumPy Handbook](02_NumPy/01_NumPy_Handbook.ipynb) | Arrays, indexing, broadcasting, math & statistics: beginner to pro |
-
-### 🐼 03 · Pandas
-| Notebook | What you will learn |
-|---|---|
-| [DataFrames](03_Pandas/01_Pandas_DataFrames.ipynb) | Create, select, filter and transform tables |
-| [String Methods](03_Pandas/02_Pandas_Strings.ipynb) | Vectorized text processing with `.str` |
-| [GroupBy](03_Pandas/03_Pandas_GroupBy.ipynb) | Split → Apply → Combine, `agg`, `apply` |
-| [Merging & Joins](03_Pandas/04_Pandas_Merging_and_Joins.ipynb) | `concat`, `merge`, inner / left / right / outer / self joins |
-| [MultiIndex & Pivot](03_Pandas/05_Pandas_MultiIndex_and_Pivot.ipynb) | Hierarchical index, stack / unstack, pivot tables |
-| [Date & Time](03_Pandas/06_Pandas_DateTime.ipynb) | `Timestamp`, `DatetimeIndex`, `date_range`, `dt` accessor |
-
-### 📈 04 · Data Visualization
-| Notebook | What you will learn |
-|---|---|
-| [Matplotlib](04_Data_Visualization/01_Matplotlib.ipynb) | Scatter, bar, histogram, pie charts, styles and saving figures |
-| [Seaborn](04_Data_Visualization/02_Seaborn.ipynb) | Relational, distribution, matrix, categorical, regression and multi-plots |
-
-### 🧹 05 · Data Cleaning
-| Notebook | What you will learn |
-|---|---|
-| [Data Accessing & Cleaning](05_Data_Cleaning/01_Data_Accessing_and_Cleaning.ipynb) | Assess and clean a clinical-trial dataset using **Define → Code → Test** |
-
-### 🔍 06 · Exploratory Data Analysis
-| Notebook | What you will learn |
-|---|---|
-| [Titanic EDA](06_EDA/01_Titanic_EDA.ipynb) | Univariate and bivariate analysis, feature engineering, key findings |
-
----
-
-## 🗂️ Repository Structure
-
-```text
-data-science-notebooks/
-├── 📁 01_Python/
-├── 📁 02_NumPy/
-├── 📁 03_Pandas/
-├── 📁 04_Data_Visualization/
-├── 📁 05_Data_Cleaning/
-├── 📁 06_EDA/
-├── 🖼️ assets/images/      # images used inside notebooks
-├── 📂 data/               # put datasets here (see data/README.md)
-├── 📄 requirements.txt
-└── 📄 README.md
-```
-
----
-
-## ⚡ Quick Start
-
-```bash
-# 1️⃣ Clone the repository
-git clone https://github.com/<your-username>/data-science-notebooks.git
-cd data-science-notebooks
-
-# 2️⃣ (Optional) create a virtual environment
-python -m venv .venv
-source .venv/bin/activate        # Windows: .venv\Scripts\activate
-
-# 3️⃣ Install the dependencies
-pip install -r requirements.txt
-
-# 4️⃣ Launch Jupyter
-jupyter lab
-```
-
-<details>
-<summary><b>📌 Good to know</b></summary>
-
-- Notebooks were first written in Google Colab; file paths now use `../data/...` so they work locally.
-- `DataFrame.append()` was removed in pandas 2.0, so the notebooks use `pd.concat()`.
-- Saved outputs are kept, so you can read everything directly on GitHub.
-
-</details>
-
----
-
-## 📂 Datasets
-
-Datasets are **not stored** in this repository. Each notebook reads its files from the `data/` folder (for example `../data/train.csv`).
-👉 The complete list of files needed per notebook is in [`data/README.md`](data/README.md).
-
----
-
-## 🧰 Tech Stack
-
-| | Library | Used for |
-|---|---|---|
-| 🐍 | **Python 3** | Core language |
-| 🔢 | **NumPy** | Numerical computing |
-| 🐼 | **Pandas** | Data analysis and wrangling |
-| 📈 | **Matplotlib** | Basic plotting |
-| 🎨 | **Seaborn** | Statistical visualization |
-| ✨ | **Plotly** | Interactive charts |
-| 📓 | **Jupyter** | Notebook environment |
-
----
-
-## 👤 Author
-
-<div align="center">
-
-### ✨ Created by **Muhammad Adnan** ✨
-
-*Artificial Intelligence • Python • Data Science*
-
-⭐ If this repository helped you, give it a star!
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:33adff,100:102a43&height=100&section=footer" alt="footer"/>
-
-</div>
+✨ Created by **Muhammad Adnan** — BS Artificial Intelligence, Hazara University · Aspiring AI Engineer
