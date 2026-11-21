@@ -1,0 +1,23 @@
+# Pinned to the LangChain 0.3 line - the notebooks use APIs (create_react_agent, hub) that moved in 1.x
+langchain>=0.3,<1.0
+langchain-core>=0.3,<1.0
+langchain-community>=0.3,<1.0
+langchain-openai>=0.3,<1.0
+langchain-chroma>=0.2
+langchain-text-splitters>=0.3,<1.0
+langchainhub
+chromadb
+faiss-cpu
+tiktoken
+pypdf
+beautifulsoup4
+wikipedia
+duckduckgo-search
+youtube-transcript-api<1.0
+langchain-experimental
+pydantic>=2
+requests
+numpy
+python-dotenv
+jupyterlab
+ipykernel
