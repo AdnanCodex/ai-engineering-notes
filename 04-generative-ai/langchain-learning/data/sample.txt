@@ -1,0 +1,2 @@
+LangChain loaders return Document objects.
+Each has page_content and metadata.
