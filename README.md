@@ -114,7 +114,7 @@ The complete LangChain path: **Models → Prompts → Structured Output → Chai
 
 **The path:** 📗 Python for Data Science → 🤖 Machine Learning → 🧠 Deep Learning → ✨ Generative AI & Agents → ⚡ FastAPI → 🎈 Streamlit
 
-> ✅ **Green + gold border** = complete &nbsp;•&nbsp; 🌑 **Dark + dashed border** = coming soon &nbsp;•&nbsp; Thick gold arrows = the completed path
+> ✅ **Green + gold border** = complete &nbsp;•&nbsp; 🌑 **Dark + dashed border** = coming soon
 
 <div align="center">
 
