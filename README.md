@@ -12,7 +12,7 @@
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
 ![Sections](https://img.shields.io/badge/Sections-6-blue?style=flat-square)
-![Notebooks](https://img.shields.io/badge/Notebooks-36-success?style=flat-square)
+![Notebooks](https://img.shields.io/badge/Notebooks-33-success?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Actively%20Growing-brightgreen?style=flat-square)
 ![License](https://img.shields.io/badge/Use-Study%20%26%20Practice-blueviolet?style=flat-square)
 
@@ -59,11 +59,11 @@
 | | |
 | --- | --- |
 | 🧭 **One path, zero chaos** | Six numbered sections take you from Python basics to Generative AI in the exact order to learn them |
-| 💻 **Code first** | 36 notebooks — not slides, not theory dumps. Real datasets, real models, real results |
+| 💻 **Code first** | 33 notebooks and 33 hands-on scripts — not slides, not theory dumps. Real datasets, real models, real results |
 | 🏆 **Model selection built in** | Every ML topic ends with a full comparison notebook: cross-validation + hyperparameter tuning + leaderboard |
 | 👁️ **Readable without running** | All outputs (tables, charts, scores) are saved — browse everything right here on GitHub |
 | 🔌 **Clone & run** | Dataset paths are repo-relative — clone it and everything executes as-is |
-| 📈 **Grows weekly** | New sections unlock as the journey progresses: Deep Learning → Generative AI → FastAPI → Streamlit |
+| 📈 **Grows weekly** | Four of six sections are complete. Next to unlock: FastAPI → Streamlit |
 
 <div align="center">
 
@@ -79,8 +79,8 @@
 | --- | --- | --- | --- |
 | 01 | 📗 [**Python for Data Science**](01-python-for-datascience/) | Python, NumPy, Pandas, Visualization, Data Cleaning, EDA | ✅ **Complete** |
 | 02 | 🤖 [**Machine Learning**](02-machine-learning/) | Preprocessing, Regression, Classification, Ensembles, Clustering | ✅ **Complete** |
-| 03 | 🧠 [**Deep Learning**](03-deep-learning/) | Neural networks, CNNs, RNNs, Transformers | 🔜 *Coming soon* |
-| 04 | ✨ [**Generative AI**](04-generative-ai/) | LLMs, RAG, AI Agents, prompt engineering | 🔜 *Coming soon* |
+| 03 | 🧠 [**Deep Learning**](03-deep-learning/) | PyTorch, ANN, CNN, RNN, LSTM, Transfer Learning | ✅ **Complete** |
+| 04 | ✨ [**Generative AI**](04-generative-ai/) | LangChain, LLMs, RAG, Tools, AI Agents | ✅ **Complete** |
 | 05 | ⚡ [**FastAPI**](05-fastapi/) | Production-grade APIs for ML models | 🔜 *Coming soon* |
 | 06 | 🎈 [**Streamlit**](06-streamlit/) | Interactive dashboards & ML web apps | 🔜 *Coming soon* |
 
@@ -89,6 +89,12 @@ The foundation layer: **Python programming → NumPy → Pandas (6 notebooks) �
 
 ### 🤖 Section 02 — Machine Learning
 The complete classical ML path on three real datasets (**Diabetes, Concrete Strength, HR**): **Data Preprocessing → Regression → Classification → Ensemble Learning → Unsupervised Learning** — 24 notebooks, each topic closed by a best-model-selection benchmark.
+
+### 🧠 Section 03 — Deep Learning
+The complete practical PyTorch path: **Tensors & Autograd → Training Pipelines & nn.Module → Dataset & DataLoader → ANN → CNN & Transfer Learning → RNN & LSTM** — 16 notebooks on Fashion-MNIST and a Q&A dataset, modernised to current PyTorch practice.
+
+### ✨ Section 04 — Generative AI
+The complete LangChain path: **Models → Prompts → Structured Output → Chains & Runnables → Document Loaders & Text Splitters → Vector Stores & Retrievers → RAG → Tools → AI Agents** — 33 scripts and 5 notebooks.
 
 <div align="center">
 
@@ -109,8 +115,8 @@ flowchart LR
     E --> F["🎈 Streamlit"]
     style A fill:#1f7a4d,color:#fff,stroke:#33adff,stroke-width:2px
     style B fill:#1f7a4d,color:#fff,stroke:#33adff,stroke-width:2px
-    style C fill:#203a43,color:#fff,stroke:#33adff
-    style D fill:#203a43,color:#fff,stroke:#33adff
+    style C fill:#1f7a4d,color:#fff,stroke:#33adff,stroke-width:2px
+    style D fill:#1f7a4d,color:#fff,stroke:#33adff,stroke-width:2px
     style E fill:#203a43,color:#fff,stroke:#33adff
     style F fill:#203a43,color:#fff,stroke:#33adff
 ```
@@ -131,10 +137,12 @@ flowchart LR
 
 </div>
 
-**🗄️ Datasets included:** Diabetes • Concrete Strength • HR
+**🗄️ Datasets included:** Diabetes • Concrete Strength • HR • Fashion-MNIST • Q&A Dataset
 
 - **Section 01:** 12 notebooks — Python (1) • NumPy (1) • Pandas (6) • Visualization (2) • Data Cleaning (1) • EDA (1)
 - **Section 02:** 24 notebooks — Preprocessing (2) • Regression (5) • Classification (6) • Ensemble (4) • Unsupervised (7)
+- **Section 03:** 16 notebooks — PyTorch Fundamentals (5) • Dataset & DataLoader (2) • ANN (4) • CNN & Transfer Learning (3) • RNN & LSTM (2)
+- **Section 04:** 5 notebooks + 33 scripts — LangChain: Models, Prompts, Chains, Runnables, Loaders, Splitters, Vector Stores, Retrievers, RAG, Tools, Agents
 
 <div align="center">
 
@@ -151,10 +159,12 @@ flowchart LR
 | 🐍 **Language** | Python 3 |
 | 🔢 **Data** | NumPy, Pandas |
 | 🤖 **Machine Learning** | scikit-learn (regression, classification, ensembles, clustering, tuning) |
+| 🧠 **Deep Learning** | PyTorch (ANN, CNN, RNN, LSTM, Transfer Learning, Optuna tuning) |
+| ✨ **Generative AI** | LangChain, OpenAI API (RAG, Tools, Agents) |
 | 📈 **Visualization** | Matplotlib, Seaborn |
 | 📓 **Environment** | Jupyter Notebook / JupyterLab |
 | 🛠️ **Workflow** | Git, GitHub, VS Code |
-| 🔭 **On the roadmap** | TensorFlow / PyTorch, LangChain, FastAPI, Streamlit |
+| 🔭 **On the roadmap** | FastAPI, Streamlit |
 
 <div align="center">
 
@@ -170,8 +180,8 @@ ai-engineering-notes/
 ├── 📁 assets/                       🎬 Animated banner, dividers & footer
 ├── 📁 01-python-for-datascience/    ✅ Python, NumPy, Pandas, Viz, Cleaning, EDA
 ├── 📁 02-machine-learning/          ✅ Preprocessing → Regression → Classification → Ensemble → Clustering
-├── 📁 03-deep-learning/             🔜 placeholder
-├── 📁 04-generative-ai/             🔜 placeholder
+├── 📁 03-deep-learning/             ✅ PyTorch → ANN → CNN → Transfer Learning → RNN & LSTM
+├── 📁 04-generative-ai/             ✅ LangChain → RAG → Tools → AI Agents
 ├── 📁 05-fastapi/                   🔜 placeholder
 └── 📁 06-streamlit/                 🔜 placeholder
 ```
