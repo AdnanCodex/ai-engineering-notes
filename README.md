@@ -106,22 +106,28 @@ The complete LangChain path: **Models → Prompts → Structured Output → Chai
 
 <img src="assets/sec_roadmap.gif" alt="" width="100%">
 
-```
+```mermaid
 flowchart LR
-    A["📗 Python for<br/>Data Science"] --> B["🤖 Machine<br/>Learning"]
-    B --> C["🧠 Deep<br/>Learning"]
-    C --> D["✨ Generative AI<br/>& Agents"]
-    D --> E["⚡ FastAPI"]
-    E --> F["🎈 Streamlit"]
-    style A fill:#1f7a4d,color:#fff,stroke:#33adff,stroke-width:2px
-    style B fill:#1f7a4d,color:#fff,stroke:#33adff,stroke-width:2px
-    style C fill:#1f7a4d,color:#fff,stroke:#33adff,stroke-width:2px
-    style D fill:#1f7a4d,color:#fff,stroke:#33adff,stroke-width:2px
-    style E fill:#203a43,color:#fff,stroke:#33adff
-    style F fill:#203a43,color:#fff,stroke:#33adff
+    A("📗 01 · Python for<br/>Data Science<br/>✅ COMPLETE")
+    B("🤖 02 · Machine<br/>Learning<br/>✅ COMPLETE")
+    C("🧠 03 · Deep<br/>Learning<br/>✅ COMPLETE")
+    D("✨ 04 · Generative AI<br/>& Agents<br/>✅ COMPLETE")
+    E("⚡ 05 · FastAPI<br/>🔜 COMING SOON")
+    F("🎈 06 · Streamlit<br/>🔜 COMING SOON")
+
+    A ==> B ==> C ==> D ==> E -.-> F
+
+    style A fill:#14532d,color:#ffffff,stroke:#f5c542,stroke-width:3px
+    style B fill:#14532d,color:#ffffff,stroke:#f5c542,stroke-width:3px
+    style C fill:#14532d,color:#ffffff,stroke:#f5c542,stroke-width:3px
+    style D fill:#14532d,color:#ffffff,stroke:#f5c542,stroke-width:3px
+    style E fill:#203a43,color:#ffffff,stroke:#94a3b8,stroke-width:2px,stroke-dasharray:6 4
+    style F fill:#203a43,color:#ffffff,stroke:#94a3b8,stroke-width:2px,stroke-dasharray:6 4
+    linkStyle 0,1,2,3 stroke:#f5c542,stroke-width:3px
+    linkStyle 4 stroke:#94a3b8,stroke-width:2px
 ```
 
-> ✅ Green = complete &nbsp;•&nbsp; 🌑 Dark = on the roadmap
+> ✅ **Green + gold border** = complete &nbsp;•&nbsp; 🌑 **Dark + dashed border** = coming soon &nbsp;•&nbsp; Thick gold arrows = the completed path
 
 <div align="center">
 
