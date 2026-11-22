@@ -106,26 +106,13 @@ The complete LangChain path: **Models → Prompts → Structured Output → Chai
 
 <img src="assets/sec_roadmap.gif" alt="" width="100%">
 
-```mermaid
-flowchart LR
-    A("📗 01 · Python for<br/>Data Science<br/>✅ COMPLETE")
-    B("🤖 02 · Machine<br/>Learning<br/>✅ COMPLETE")
-    C("🧠 03 · Deep<br/>Learning<br/>✅ COMPLETE")
-    D("✨ 04 · Generative AI<br/>& Agents<br/>✅ COMPLETE")
-    E("⚡ 05 · FastAPI<br/>🔜 COMING SOON")
-    F("🎈 06 · Streamlit<br/>🔜 COMING SOON")
+<div align="center">
 
-    A ==> B ==> C ==> D ==> E -.-> F
+<img src="assets/roadmap.png" alt="Roadmap — Python for Data Science, Machine Learning, Deep Learning and Generative AI complete; FastAPI and Streamlit coming soon" width="100%">
 
-    style A fill:#14532d,color:#ffffff,stroke:#f5c542,stroke-width:3px
-    style B fill:#14532d,color:#ffffff,stroke:#f5c542,stroke-width:3px
-    style C fill:#14532d,color:#ffffff,stroke:#f5c542,stroke-width:3px
-    style D fill:#14532d,color:#ffffff,stroke:#f5c542,stroke-width:3px
-    style E fill:#203a43,color:#ffffff,stroke:#94a3b8,stroke-width:2px,stroke-dasharray:6 4
-    style F fill:#203a43,color:#ffffff,stroke:#94a3b8,stroke-width:2px,stroke-dasharray:6 4
-    linkStyle 0,1,2,3 stroke:#f5c542,stroke-width:3px
-    linkStyle 4 stroke:#94a3b8,stroke-width:2px
-```
+</div>
+
+**The path:** 📗 Python for Data Science → 🤖 Machine Learning → 🧠 Deep Learning → ✨ Generative AI & Agents → ⚡ FastAPI → 🎈 Streamlit
 
 > ✅ **Green + gold border** = complete &nbsp;•&nbsp; 🌑 **Dark + dashed border** = coming soon &nbsp;•&nbsp; Thick gold arrows = the completed path
 
