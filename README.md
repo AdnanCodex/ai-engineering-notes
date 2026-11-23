@@ -37,7 +37,7 @@
 ## 📑 Table of Contents
 
 - [🌟 Why This Repository](#-why-this-repository)
-- [🗂️ The Six Sections](#️-the-six-sections)
+- [🗂️ The Seven Sections](#️-the-seven-sections)
 - [🗺️ Roadmap](#️-roadmap)
 - [📊 Repository at a Glance](#-repository-at-a-glance)
 - [🧰 Tech Stack](#-tech-stack)
@@ -71,7 +71,7 @@
 
 </div>
 
-## 🗂️ The Six Sections
+## 🗂️ The Seven Sections
 
 <img src="assets/sec_sections.gif" alt="" width="100%">
 
@@ -83,6 +83,7 @@
 | 04 | ✨ [**Generative AI**](04-generative-ai/) | LangChain, LLMs, RAG, Tools, AI Agents | ✅ **Complete** |
 | 05 | ⚡ [**FastAPI**](05-fastapi/) | Production-grade APIs for ML models | 🔜 *Coming soon* |
 | 06 | 🎈 [**Streamlit**](06-streamlit/) | Interactive dashboards & ML web apps | 🔜 *Coming soon* |
+| 07 | 👁️ **Computer Vision** | OpenCV, Image Processing, Contours, Face Detection | ✅ **Complete** |
 
 ### 📗 Section 01 — Python for Data Science
 The foundation layer: **Python programming → NumPy → Pandas (6 notebooks) → Matplotlib & Seaborn → Data Cleaning → Titanic EDA**. Comes with its own detailed README, image assets, dataset notes and `requirements.txt`.
@@ -95,6 +96,9 @@ The complete practical PyTorch path: **Tensors & Autograd → Training Pipelines
 
 ### ✨ Section 04 — Generative AI
 The complete LangChain path: **Models → Prompts → Structured Output → Chains & Runnables → Document Loaders & Text Splitters → Vector Stores & Retrievers → RAG → Tools → AI Agents** — 33 scripts and 5 notebooks.
+
+### 👁️ Section 07 — Computer Vision
+The complete OpenCV path: **Image Basics → Drawing & GUI Events → Geometric Transformations → Colour Spaces & Channels → Filtering & Blurring → Thresholding → Morphological Operations → Gradients & Edge Detection → Histograms & Equalization → Contours & Shape Detection → Template Matching, Hough & Corners → Video & Webcam → Face & Object Detection → Feature Detection & Matching → Background Subtraction, Tracking & QR → Mini Projects** — 18 notebooks.
 
 <div align="center">
 
@@ -154,6 +158,7 @@ The complete LangChain path: **Models → Prompts → Structured Output → Chai
 | 🤖 **Machine Learning** | scikit-learn (regression, classification, ensembles, clustering, tuning) |
 | 🧠 **Deep Learning** | PyTorch (ANN, CNN, RNN, LSTM, Transfer Learning, Optuna tuning) |
 | ✨ **Generative AI** | LangChain, OpenAI API (RAG, Tools, Agents) |
+| 👁️ **Computer Vision** | OpenCV (image processing, contours, face detection) |
 | 📈 **Visualization** | Matplotlib, Seaborn |
 | 📓 **Environment** | Jupyter Notebook / JupyterLab |
 | 🛠️ **Workflow** | Git, GitHub, VS Code |
@@ -176,7 +181,8 @@ ai-engineering-notes/
 ├── 📁 03-deep-learning/             ✅ PyTorch → ANN → CNN → Transfer Learning → RNN & LSTM
 ├── 📁 04-generative-ai/             ✅ LangChain → RAG → Tools → AI Agents
 ├── 📁 05-fastapi/                   🔜 placeholder
-└── 📁 06-streamlit/                 🔜 placeholder
+├── 📁 06-streamlit/                 🔜 placeholder
+└── 📁 07-computer-vision/           ✅ OpenCV → Image Processing → Contours → Face Detection
 ```
 
 <div align="center">
